@@ -1,10 +1,9 @@
 word = "Hello world"
 
-for char in range(word):
+for char in word:
     if char == "o":
-        print("a")
+        print("a", end="")
     elif char == "l":
-        print("e")
+        print("e", end="")
     else:
-        print(char)
-
+        print(char, end="")
