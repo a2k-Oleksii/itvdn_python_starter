@@ -7,7 +7,7 @@ b = {1, 2, 3, 4, 5, 9, 10, 44}
 b.discard(3)
 print(b)
 
-c = {1, 2, 5, 6, 4, 3}
+c = {1, 2, 5, 4, 3}
 c.add(6)
 print(c)
 
@@ -18,7 +18,7 @@ print(a)
 
 e = {1, 2, 3, 4}
 f = {3, 4}
-
+print("________________________")
 print(e.difference(f))
 print(f.difference(e))
 
