@@ -1,0 +1,8 @@
+print(type(str(1)), str(1))
+print(type(int('1')), int('1'))
+print(type(float(1)), (float(1)))
+print(type(list('12345')), list('12345'))
+print(type(dict([('key', 1)])), dict([('key', 1)]))
+print(type(set([1, 2, 3, 4, 4, 5, 3])), set([1, 2, 3, 4, 4, 5, 3]))
+print(type(tuple('1234')), tuple('1234'))
+print(type(bool(1)), bool(1))
